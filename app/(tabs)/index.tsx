@@ -1,3 +1,4 @@
+/*
 import { Image } from 'expo-image';
 import { Platform, StyleSheet } from 'react-native';
 
@@ -101,14 +102,46 @@ const styles = StyleSheet.create({
 
 
 
-/*
+
+// import { Text, View, StyleSheet } from 'react-native';
+
+// export default function Index() {
+//   return (
+//     <View style={styles.container}>
+//       <Text style={styles.title}>Hello David 👋</Text>
+//       <Text style={styles.subtitle}>My custom React Native screen!</Text>
+//     </View>
+//   );
+// }
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: '#fff',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   },
+//   title: {
+//     fontSize: 28,
+//     fontWeight: 'bold',
+//     color: '#2a9d8f',
+//   },
+//   subtitle: {
+//     fontSize: 18,
+//     color: '#264653',
+//     marginTop: 10,
+//   },
+// });
+
+*/
+
 import { Text, View, StyleSheet } from 'react-native';
 
-export default function Index() {
+export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Hello David 👋</Text>
-      <Text style={styles.subtitle}>My custom React Native screen!</Text>
+      <Text style={styles.title}>Hello Madame</Text>
+      <Text style={styles.subtitle}>Welcome to David's React Native app, don't forget to smile!</Text>
     </View>
   );
 }
@@ -130,4 +163,4 @@ const styles = StyleSheet.create({
     color: '#264653',
     marginTop: 10,
   },
-}); */
+});
